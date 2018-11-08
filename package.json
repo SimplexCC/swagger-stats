@@ -50,9 +50,11 @@
     "debug": "^3.1.0",
     "moment": "^2.19.3",
     "path-to-regexp": "^2.1.0",
-    "prom-client": "^11.0.0",
     "request": "^2.85.0",
     "uuid": "^3.1.0"
+  },
+  "peerDependencies": {
+    "prom-client": "^11.0.0"
   },
   "devDependencies": {
     "artillery": "^1.6.0-22",
